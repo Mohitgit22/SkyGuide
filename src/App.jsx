@@ -4,7 +4,7 @@ import Forecast from './components/Forecast'
 import Inputs from './components/Inputs'
 import TempAndDetails from './components/TempAndDetails'
 import TimeAndLocation from './components/TimeAndLocation'
-import TopButtons from './components/TopButtons'
+import MajorCities from './components/MajorCities'
 import getFormattedWeatherData from './services/weatherService'
 
 
@@ -58,7 +58,7 @@ const App = () => {
     <div className={`mx-auto py-5 px-32 sm:px-8 lg:px-32 bg-gradient-to-br shadow-xl shadow-gray-400
      from-gray-900 via-gray-8900 to-black overflow-x-hidden`}>
       <div className="flex flex-col sm:flex-row justify-between items-start mb-8">
-        <TopButtons setQuery={setQuery} />
+        <MajorCities setQuery={setQuery} />
         <Inputs setQuery={setQuery} setUnits={setUnits} />
       </div>
 
