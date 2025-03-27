@@ -2,6 +2,17 @@
 
 SkyGuide is a React.js application that provides real-time weather insights, forecasts, and temperature trends. It integrates the OpenWeatherMap API to deliver accurate weather conditions with an intuitive user interface.
 
+## Screenshots
+
+Here are some screenshots of the application:
+
+### Home Page
+![Home Page](https://github.com/Mohitgit22/SkyGuide/blob/061a9e25c4ae8974c97e3985d68eca4268ed668e/skyguide2.png)
+
+### Weather Forecast
+![Weather Forecast](https://github.com/Mohitgit22/SkyGuide/blob/061a9e25c4ae8974c97e3985d68eca4268ed668e/skyguide2.png)
+
+
 ## Features
 
 - **Real-Time Weather Updates**: Get current weather conditions instantly.
